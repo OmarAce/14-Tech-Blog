@@ -1,27 +1,39 @@
 {
   "name": "14-tech-blog",
   "version": "1.0.0",
-  "description": "## Your Task",
-  "main": "index.js",
+  "description": "Model-View-Controller (MVC) Tech Blog",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OmarAce/14-Tech-Blog.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Omar Acevedo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OmarAce/14-Tech-Blog/issues"
   },
   "homepage": "https://github.com/OmarAce/14-Tech-Blog#readme",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.2",
-    "mysql2": "^2.3.3",
-    "sequelize": "^7.0.0-alpha.4"
+    "bcrypt": "^5.0.0",
+    "bulma": "^0.9.0",
+    "connect-session-sequelize": "^6.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^5.21.13"
+  },
+  "devDependencies": {
+    "@creativebulma/bulma-divider": "^1.1.0",
+    "jest": "^26.0.1"
   }
 }
