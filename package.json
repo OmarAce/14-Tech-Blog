@@ -1,23 +1,14 @@
 {
   "name": "14-tech-blog",
   "version": "1.0.0",
-  "description": "Model-View-Controller (MVC) Tech Blog",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OmarAce/14-Tech-Blog.git"
-  },
-  "keywords": [],
   "author": "Omar Acevedo",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OmarAce/14-Tech-Blog/issues"
-  },
-  "homepage": "https://github.com/OmarAce/14-Tech-Blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "bulma": "^0.9.0",
