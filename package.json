@@ -4,10 +4,8 @@
   "description": "Model-View-Controller (MVC) Tech Blog",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
     "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -33,7 +31,6 @@
     "sequelize": "^5.21.13"
   },
   "devDependencies": {
-    "@creativebulma/bulma-divider": "^1.1.0",
-    "jest": "^26.0.1"
+    "@creativebulma/bulma-divider": "^1.1.0"
   }
 }
