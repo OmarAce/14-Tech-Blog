@@ -5,7 +5,7 @@
 ## Objective
 Build a CMS-style blog website where prospective developers can write their thoughts and opinions on technology.
 
-![Blog Image](public/assets/app-demo.png)
+![Blog Image](public/assets/site-demo.png)
 
   ## Table of Contents 
 - [Objective](#objective)
